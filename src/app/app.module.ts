@@ -9,7 +9,7 @@ import { VideosModule } from './videos/videos.module';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     VideosModule
   ],
   providers: [],
