@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GLOBAL_PUBLISH_EXPANDO_KEY } from '@angular/core/src/render3/global_utils';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'video';
+  public title = 'Mikolaj Wesolowski';
+  public color = 'pink'
+
+  get styles() {
+    return {
+      background: this.color
+    };
+  }
+
 }
