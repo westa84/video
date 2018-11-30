@@ -6,7 +6,7 @@ import { resolve } from 'q';
 })
 export class LatestVideoService {
 
-  fetchMovies() {
+  fetchMovies(): Promise<Array<object>> {
     const movies = [
       {
         title: "Lost Highway",
