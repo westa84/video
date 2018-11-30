@@ -167,7 +167,7 @@ var LatestVideoService = /** @class */ (function () {
         return new Promise(function (resolve) {
             setTimeout(function () {
                 resolve(movies);
-            }, 500);
+            }, 1500);
         });
     };
     LatestVideoService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
