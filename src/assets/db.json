@@ -1,0 +1,18 @@
+[
+    {
+      "id": "sher8qwerqyagedas",
+      "title": "Lost Highway",
+      "year": 1997,
+      "description": "Saksofonista zostaje aresztowany pod zarzutem zamordowania swojej żony. Po kilku dniach znika z celi, a na jego miejscu pojawia się inny mężczyzna.",
+      "duration": 135,
+      "rate": 7.6
+    },
+    {
+      "id": "dafdsferew",
+      "title": "Mulholland Drive",
+      "year": 2001,
+      "description": "Rita traci pamięć wskutek wypadku samochodowego. Odkrywa, że jej torba jest pełna pieniędzy i postanawia dowiedzieć się, skąd one pochodzą.",
+      "duration": 146,
+      "rate": 7.6
+    }
+  ]

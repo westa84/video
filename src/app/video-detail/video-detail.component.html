@@ -5,7 +5,7 @@
 <fieldset *ngIf="video">
     <legend>Film</legend>
 
-    <h2>
+    <h2 [routerLink]="['/video/' +video.id]">
         {{ video.title }}
         <small>
             ( {{ video.year }} )
